@@ -21,6 +21,17 @@ body {
   border-radius: 10px;
   box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.5);
 }
+.container.signup {
+  height: auto;
+  min-height: 650px;
+  padding: 24px 0;
+}
+.header--compact {
+  font-size: 28px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  line-height: 36px;
+}
 .content {
   width: 72%;
   text-align: center;

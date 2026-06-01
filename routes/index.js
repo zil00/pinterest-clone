@@ -9,4 +9,9 @@ router.get('/', function(req, res, next) {
 router.get('/login', function(req, res, next) {
   res.send('logged in');
 });
+
+router.get('/signup', function(req, res, next) {
+  res.render('signup', { title: 'Sign up' });
+});
+
 module.exports = router;
